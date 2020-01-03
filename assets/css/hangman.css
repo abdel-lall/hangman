@@ -1,0 +1,254 @@
+@font-face {
+    font-family: halo;
+    src: url(../fonts/halo/HALO____.TTF);
+  }
+  @font-face {
+    font-family: pack;
+    src: url(../fonts/crackman/crackman.ttf);
+  }
+body{
+    background-color: #543b79;
+}
+#firstContainer{
+    box-sizing: border-box;
+    width: 60%;
+    height: 80vh;
+}
+#secondContainer{
+    box-sizing: border-box;
+    width: 60%;
+    height: 20vh;
+}
+#title{
+    font-family: 'Lakki Reddy', cursive;
+    display: inline-block;
+    color: white;
+    font-size: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.unselectedKey{
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border: solid 2px white;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#a8a9ee;
+    margin: 3px;
+    /* #7c82f4 */
+}
+#colKeys{
+    padding-top: 20px ;
+    text-align: center;
+    /* width: 60%; */
+}
+#portrait{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border: solid 2px white;
+    border-radius: 15px;
+    margin: 0 auto;
+   
+}
+#info{
+    box-sizing: border-box;
+    font-family:  'Acme', sans-serif;
+    width: 400px;
+    height: 400px;
+    color: white;
+    
+    
+    margin: 0 auto;
+}
+
+#hint{
+    
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    /* font-family: "halo"; */
+}
+#hang{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+}
+#hintR,#wordR,#scoreR,#hangR{
+    border: solid 2px white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #7c82f4;
+    text-align: center;
+    padding-top: 5px;
+}
+#hangR{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#hintR{
+    box-sizing: border-box;
+    height: 90px;
+    padding-top: 10px;
+}
+#word{
+    margin: 0 auto;
+}
+#score{
+    margin: 0 auto;
+}
+#msg{
+    box-sizing: border-box;
+    font-family:  'Acme', sans-serif;
+    color: white;  
+    margin: 0 auto;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 736px) {
+    #title{
+        color: white;
+        font-size: 50px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #info{
+        box-sizing: border-box;
+        font-family:  'Acme', sans-serif; 
+        height: 250px;
+        width: auto;
+        color: white;
+        margin: 0 auto;
+    }
+    #firstContainer{
+        box-sizing: border-box;
+        margin: 0px;
+        margin: 10px;
+        height: 80vh;
+        width: calc(100% - 20px);
+        
+    }
+    #secondContainer{
+        box-sizing: border-box;
+        width: calc(100% - 20px);
+        height: 15vh;
+    }
+    #portrait{
+        box-sizing: border-box;
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        border: solid 1px white;
+        border-radius: 15px;
+        margin: 0 auto;
+       
+    }
+    .unselectedKey{
+        box-sizing: border-box;
+        color: white;
+        display: inline-block;
+        font-size: 10px;
+        height: 20px;
+        width: 20px;
+        border: solid 1px white;
+        border-radius: 5px;
+        text-align: center;
+        background-color:#a8a9ee;
+        margin: 3px;
+        /* #7c82f4 */
+    }
+    #msg{
+        box-sizing: border-box;
+        font-family:  'Acme', sans-serif;
+        color: white;  
+        margin: 0 auto;
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    #hintR,#wordR,#scoreR,#hangR{
+        border: solid 1px white;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-color: #7c82f4;
+        text-align: center;
+        padding-top: 5px;
+    }
+    #word,#score{
+        font-size: 20px;
+    }
+    #hintR{
+        box-sizing: border-box;
+        height: 70px;
+    }
+    #hint{
+        font-size: 15px;
+    }
+    #hang{
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        margin: 0 auto;
+    }
+    #colKeys{
+        padding-top: 0px ;
+        text-align: center;
+        /* width: 60%; */
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    #title{
+        color: white;
+        font-size: 30px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #portrait{
+        box-sizing: border-box;
+        display: inline-block;
+        height: 120px;
+        width: 120px;
+        border: solid 1px white;
+        border-radius: 15px;
+        margin: 0 auto;
+       
+    }
+ 
+  }
+  @media only screen and (max-width: 320px) {
+    #title{
+        color: white;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #portrait{
+        box-sizing: border-box;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        border: solid 1px white;
+        border-radius: 15px;
+        margin: 0 auto;
+       
+    }
+    #colKeys{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #hang{
+        height: 50px;
+        width: 50px;
+    }
+    #info{
+        height: 235px;
+    }
+    #firstContainer{
+        height: 78vh;
+    }
+  }

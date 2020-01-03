@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css" >
+    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/hangman.css" >
+    <title>Hangman</title>
+</head>
+<body>
+    <div class="container-fluid" id="firstContainer">
+        <div class="row">
+            <h1 id="title">
+                HANGMAN
+            </h1>
+        </div>
+        <div class="row">
+                <div class="col-lg-6" >
+                        <div class="container" id="info">
+                            <div class="row" id="hintR">
+                                    <p id="hint">
+                                            
+                                          </p>
+                            </div>
+                            <div class="row" id="wordR">
+                                    <h1 id="word">?</h1>
+                            </div>
+                            <div class="row" id="scoreR">
+                                    <h1 id="score">Score : <span id="scoreS"></span>/10</h1>
+                            </div>
+                            <div class="row" id="hangR">
+                                    <img src='' alt="" id="hang">
+                            </div>
+                        </div>
+                           
+                        
+                        
+                       
+                    </div>
+            <div class="col-lg-6">
+             
+                <div class="row">
+                    <img src="./assets/images/new/rope.jpg" alt="person" id="portrait">
+                </div>
+            </div>
+           
+        </div>
+        <div class="row">
+            <h1 id="msg">
+                    Press any key to get started
+            </h1>
+        </div>
+    </div>
+    <div class="container-fluid" id="secondContainer">
+        <div class="row justify-content-md-center">
+            <div class="col-md-12" id="colKeys">
+                <span class="unselectedKey" id="a">A</span>
+                <span class="unselectedKey" id="b">B</span>
+                <span class="unselectedKey" id="c">C</span>
+                <span class="unselectedKey" id="d">D</span>
+                <span class="unselectedKey" id="e">E</span>
+                <span class="unselectedKey" id="f">F</span>
+                <span class="unselectedKey" id="g">G</span>
+                <span class="unselectedKey" id="h">H</span>
+                <span class="unselectedKey" id="i">I</span>
+                <span class="unselectedKey" id="j">J</span>
+                <span class="unselectedKey" id="k">K</span>
+                <span class="unselectedKey" id="l">L</span>
+                <span class="unselectedKey" id="m">M</span>
+                <span class="unselectedKey" id="n">N</span>
+                <span class="unselectedKey" id="o">O</span>
+                <span class="unselectedKey" id="p">P</span>
+                <span class="unselectedKey" id="q">Q</span>
+                <span class="unselectedKey" id="r">R</span>
+                <span class="unselectedKey" id="s">S</span>
+                <span class="unselectedKey" id="t">T</span>
+                <span class="unselectedKey" id="u">U</span>
+                <span class="unselectedKey" id="v">V</span>
+                <span class="unselectedKey" id="w">W</span>
+                <span class="unselectedKey" id="x">X</span>
+                <span class="unselectedKey" id="y">Y</span>
+                <span class="unselectedKey" id="z">Z</span>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/hangman.js"></script>
+</body>
+</html>
